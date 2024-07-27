@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+body{
+    font-family: "Reem Kufi", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #e5e7eb;
+}
+header{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #2563eb;
+color: #ffffff;
+font-weight: bold;
+margin-bottom: 1rem;
+height: 3rem;
+}
+.content{
+    position: relative;
+}
+.qr-code{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+}
+.state{
+    font-weight: bold;
+}
+.free{
+    color: green;
+}
+.paid{
+    color: brown;
+}
